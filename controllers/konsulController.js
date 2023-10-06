@@ -17,6 +17,6 @@ async function createKonsul(req, res) {
 }
 
 module.exports = {
-    getKonsuls,
+    getKonsul,
     createKonsul
 };
