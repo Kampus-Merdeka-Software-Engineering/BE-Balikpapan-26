@@ -19,7 +19,7 @@ async function createKonsul(konsul) {
                 no: konsul.no,
                 name: konsul.name,
                 phone: konsul.phone,
-                tretment: konsul.treament,
+                treatmen: konsul.treatmen,
                 dokter: konsul.dokter,
                 reservationdate: konsul.reservationdate,
                 problem: konsul.problem
