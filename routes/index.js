@@ -1,4 +1,4 @@
-const konsulRoutes = require('./konsulroutes');
+const konsulRoutes = require('./konsulRoutes');
 const testiRoutes = require('./testiRoutes');
 
 module.exports = [
