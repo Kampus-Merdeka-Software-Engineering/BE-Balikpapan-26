@@ -1,4 +1,4 @@
-const { konsulService } = require('../services/konsulService');
+const { konsulService } = require('../services');
 
 async function getKonsuls(req, res) {
     const konsuls = await konsulService.getAllKonsuls();
