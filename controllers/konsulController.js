@@ -1,6 +1,6 @@
-const { konsulService } = require('../services');
+const { konsulService } = require('../services/konsulService');
 
-async function getKonsul(req, res) {
+async function getKonsuls(req, res) {
     const konsuls = await konsulService.getAllKonsuls();
 
     res.status(200).json(konsuls);
@@ -17,6 +17,6 @@ async function createKonsul(req, res) {
 }
 
 module.exports = {
-    getKonsul,
+    getKonsuls,
     createKonsul
 };

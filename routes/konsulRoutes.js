@@ -3,8 +3,8 @@ const { konsulController } = require('../controllers');
 const router = express.Router();
 
 // get all books
-router.get('/konsuls', konsulController.getKonsul);
-router.post('/konsuls', konsulController.createKonsul);
+router.get('/konsul', konsulController.getKonsuls);
+router.post('/konsul', konsulController.createKonsul);
 
 
 

@@ -1,5 +1,5 @@
 const konsulController = require('./konsulController');
-const konsulController = require('./testiController');
+const testiController = require('./testiController');
 
 module.exports = {
     konsulController,
