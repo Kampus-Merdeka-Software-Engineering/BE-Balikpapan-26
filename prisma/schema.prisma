@@ -11,9 +11,9 @@ datasource db {
 }
 
 model Konsul {
-  no Int @id @default(autoincrement())
+  no String @id 
   name String
-  phone Int
+  phone String
   treatmen String
   dokter String
   reservationdate DateTime 
